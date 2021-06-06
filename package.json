@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.13.13",
+        "@headlessui/react": "^1.2.0",
+        "@inertiajs/inertia": "^0.8.4",
+        "@inertiajs/inertia-react": "^0.5.12",
+        "@inertiajs/progress": "^0.2.4",
+        "@tailwindcss/forms": "^0.3.2",
+        "@types/react": "^17.0.9",
+        "@types/ziggy-js": "^1.0.1",
+        "autoprefixer": "^10.2.4",
+        "axios": "^0.21",
+        "browser-sync": "^2.26.14",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.2.13",
+        "postcss-import": "^14.0.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "tailwindcss": "^2.1.2",
+        "ts-loader": "^9.2.2",
+        "typescript": "^4.3.2"
+    },
+    "dependencies": {
+        "ziggy-js": "^1.2.0"
+    }
+}
